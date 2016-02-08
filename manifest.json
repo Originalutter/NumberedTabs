@@ -1,0 +1,20 @@
+{
+	"name": "NumberedTabs",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "This extension will prepend the indexes to your open tabs titles",
+	"homepage_url": "https://github.com/Originalutter/NumberedTabs",
+	"icons": {
+		"128": "icons/icon128.png"
+	},
+	"permissions": [
+		"tabs",
+		"<all_urls>"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": false
+	}
+}
